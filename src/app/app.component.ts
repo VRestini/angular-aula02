@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pw3-input-output';
+  onCapturarResultado(evento: any){
+    alert(evento.numeroGerado);
+  }
 }
